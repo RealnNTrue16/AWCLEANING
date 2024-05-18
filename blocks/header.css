@@ -1,0 +1,50 @@
+.page {
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+}
+
+.header {
+  margin: 0;
+  background-color: tan;
+}
+
+.header__span-accent {
+  display: block;
+}
+
+.header__title {
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 10px;
+}
+
+.nav__links {
+  list-style-type: none;
+  display: flex;
+  padding: 0;
+  gap: 40px;
+}
+
+.nav__link {
+  color: black;
+  text-decoration: none;
+}
+
+.add {
+}
+
+.add-title {
+  max-width: 700px;
+}
+
+.add__image {
+  max-width: 500px;
+  position: absolute;
+  right: 100px;
+  z-index: -1;
+}
