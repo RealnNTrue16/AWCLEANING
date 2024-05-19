@@ -7,7 +7,7 @@
 
 .header {
   margin: 0;
-  background-color: tan;
+  background-color: red;
 }
 
 .header__span-accent {
@@ -36,7 +36,6 @@
 }
 
 .add {
-  color: aliceblue;
 }
 
 .add-title {
