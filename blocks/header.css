@@ -1,16 +1,17 @@
 .page {
-  background-image: url("");
-  background-repeat: no-repeat;
+  background-color: white;
+  margin: 10px 25px auto;
+  background-image: url("https://www.well-polished.com/wp-content/uploads/2020/07/cleanhome.jpg");
   background-size: cover;
-  margin: 0 auto;
+  background-repeat: no-repeat;
+  /* margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 15px; */
 }
 
 .header {
   margin: 0;
-  background-color: blue;
-  background: url("https://images.photowall.com/products/61745/rising-bubbles-1.jpg?h=699&q=85")
-    no-repeat;
-  background-size: cover;
+  background-color: tan;
 }
 
 .header__span-accent {
@@ -21,7 +22,7 @@
 .header__title {
   margin: 0;
   margin-top: 183px;
-  max-width: 800px;
+  max-width: 730px;
 }
 
 .header__description {
@@ -58,7 +59,17 @@
   text-decoration: none;
 }
 
-.add {
+.add__title {
+  margin: 0px;
+  max-width: 730px;
+  margin-top: 283px;
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  /*  line-height: 72px; */
+  /*  letter-spacing: -0.6px; */
+  color: black;
 }
 
 .header__title {
